@@ -4,11 +4,11 @@
 Project:	Grace Church
 Version:	1.0.0
 Author:     Webstrot
-Website: 
-Purchase: 
+Website:
+Purchase:
 -------------------------------------------------------------------
 [Table of contents]
- 
+
 1. Body
 2. Custom css / a
 3. Preloader/ #preloader
@@ -258,7 +258,7 @@ audio {
 }
 .gc_right_side_warpper ul{
 	float:right;
-	   
+
 }
 .gc_right_side_warpper li{
 	float:left;
@@ -292,7 +292,7 @@ audio {
 	-ms-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
-}	
+}
 .gc_top_donet_btn ul{
 	float:right;
 }
@@ -327,8 +327,8 @@ audio {
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 }
-/*-- Top Header Css End --*/	
-/*-- Header Css Start --*/	
+/*-- Top Header Css End --*/
+/*-- Header Css Start --*/
 .gc_header_wrapper{
     float: left;
     width: 100%;
@@ -1158,7 +1158,7 @@ audio {
 	letter-spacing:5px;
 	font-size:30px;
 	font-weight:bold;
-	
+
 }
 .gc_slider_cont1 h2 span, .gc_slider_cont1 h1 span{
 	color:#e5ae49;
@@ -1359,7 +1359,7 @@ audio {
 	left:0;
 	right:0;
 	margin:0px auto;
-}	
+}
 #clockdiv > div:last-child:after{
 	display:none;
 }
@@ -1687,11 +1687,11 @@ audio {
 	padding-left: 24px;
     padding-top: 16px;
 }
-.gc_dot_wrapper .gc_dot 
+.gc_dot_wrapper .gc_dot
   {
 	  animation: showHideDot 2.5s ease-in-out infinite;
   }
-  .gc_dot_wrapper .gc_dot:hover 
+  .gc_dot_wrapper .gc_dot:hover
   {
 	  animation: show 2.5s ease-in-out infinite;
   }
@@ -1714,7 +1714,7 @@ audio {
 	border:6px solid #e0e0e0;
 }
 .tooltip-inner{
-    width: 120px; 
+    width: 120px;
 	height:40px;
 	font-size:18px;
 	line-height:33px;
@@ -1993,7 +1993,7 @@ audio {
     left: 20px;
     top: 0;
     color: #ffffff;
-    opacity: 0;	
+    opacity: 0;
 }
 .portfolio-area .portfolio-wrapper:hover .portfolio-info{
     left: 40px;
@@ -2329,7 +2329,7 @@ audio {
     border-top: 62px solid #ffffff;
     position: absolute;
     left: 13%;
-    top: 100%;  
+    top: 100%;
 }
 .gc_client_cont_wrapper p{
 	color:#000000;
@@ -2370,7 +2370,7 @@ audio {
 	color:rgba(0, 0, 0, 0.67);
 }
 .gc_client_social_wrapper ul{
-	
+
 }
 .gc_client_social_wrapper li{
 	float:left;
@@ -2531,7 +2531,7 @@ audio {
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
-}	
+}
 .gc_upcom_slider_wrapper:hover .gc_event_time_cont p{
 	color:#000000;
 	-webkit-transition: all 0.5s;
@@ -2799,7 +2799,7 @@ audio {
 	border-radius: 0;
 	margin: 0;
 }
-.accordionFifteen .panel .panel-heading a {	
+.accordionFifteen .panel .panel-heading a {
 	display: block;
 	background: #e5ae49;
 	padding: 15px 20px;
@@ -2851,9 +2851,9 @@ audio {
 	line-height: 24px;
 	text-align: center;
 	display: block;
-	border-radius: 50%;	
+	border-radius: 50%;
 }
-.accordionFifteen .panel .panel-heading a:after {  
+.accordionFifteen .panel .panel-heading a:after {
   content: "\2212";
     background: #fff;
     border-radius: 2px;
@@ -3751,14 +3751,17 @@ audio {
 	padding-top:40px;
 	padding-bottom:40px;
 }
-.gc_bottom_footer_copy_wrapper p{
+.gc_bottom_footer_copy_wrapper p {
 	margin:0;
+  color: white;
 }
-.gc_bottom_footer_copy_wrapper a{
+
+.gc_bottom_footer_copy_wrapper span {
 	color:#e5ae49;
 }
 .gc_bottom_footer_right_wrapper ul{
 	float:right;
+  padding-right: 60px;
 }
 .gc_bottom_footer_right_wrapper li{
 	float:left;
@@ -3766,6 +3769,7 @@ audio {
 }
 .gc_bottom_footer_right_wrapper li a{
 	font-size:16px;
+  color: white;
 	font-family: 'Droid Serif', serif;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -3790,17 +3794,17 @@ audio {
 }
 
 /******************-- ZOOM SCALE CSS START --****************************/
-.gc_about_img_wrapper .zoom, .III_column .zoom, .gc_upcom_slider_wrapper .zoom, .gc_blog_post_wrapper .zoom{ 
-	width: 100%; 
+.gc_about_img_wrapper .zoom, .III_column .zoom, .gc_upcom_slider_wrapper .zoom, .gc_blog_post_wrapper .zoom{
+	width: 100%;
 	float:left;
-    -webkit-transition: all .3s ease-out; 
-    -moz-transition: all .3s ease-out; 
-    -o-transition: all .3s ease-out; 
-    transition: all .3s ease-out; 
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
 }
-.gc_about_img_wrapper:hover .zoom, .III_column:hover .zoom, .gc_upcom_slider_wrapper:hover .zoom, .gc_blog_post_wrapper:hover .zoom { 
+.gc_about_img_wrapper:hover .zoom, .III_column:hover .zoom, .gc_upcom_slider_wrapper:hover .zoom, .gc_blog_post_wrapper:hover .zoom {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -3808,11 +3812,11 @@ audio {
     -ms-transform: scale(1.1);
 	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
     M11=1.1, M12=-0, M21=0, M22=1.1);
-  
+
 }
-.image{ 
-	margin: 0; 
-	border: 0 
+.image{
+	margin: 0;
+	border: 0
 }
 .gc_about_img_wrapper, .gc_filter_cont_overlay_wrapper, .gc_com_slider_img_wrapper, .gc_blog_img_wrapper{
 	overflow:hidden;
@@ -3849,7 +3853,6 @@ audio {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
 .gc_menu {
     margin-top: 10px;
 }
@@ -3868,7 +3871,9 @@ audio {
 }
 
 @media (max-width: 767px) {
-
+  .gc_bottom_footer_right_wrapper ul {
+    padding-right: 0px;
+  }
 .gc_logo {
     width: 100%;
     text-align: left;
@@ -3937,7 +3942,7 @@ audio {
 	}
 .gc_map_label_wrapper{
 	display:none;
-}	
+}
 .gc_tittle_main_wrapper{
 	text-align:center;
 }
@@ -4003,9 +4008,9 @@ audio {
 }
 .admin_cont_wrapper{
 	width:calc(100% - 135px);
-}	
+}
 .admin_img_wrapper{
-	width:100%; 
+	width:100%;
 	float:none;
 }
 .admin_cont_wrapper{
@@ -4075,7 +4080,7 @@ audio {
 @media (max-width: 479px) {
 	.gc_header_wrapper {
 		padding: 15px;
-}	
+}
 	.gc_blog_date_wrapper, .gc_blog_index_date_wrapper{
 		width:100%;
 	}
@@ -4222,7 +4227,7 @@ audio {
 	}
 	.gc_testi_slider_logo_wrapper{
 		float:none;
-		
+
 	}
 }
 @media (max-width: 1500px){
@@ -4298,9 +4303,6 @@ audio {
     z-index: 1;
 	margin-bottom:60px;
 	padding-bottom:90px;
-}
-.gc_bottom_footer_right_wrapper{
-	display:none;
 }
 }
 @media (min-width: 1199px){
@@ -4400,7 +4402,7 @@ audio {
 .gc_causes_single_social_wrapper ul{
 	margin-top:30px;
 	margin-left:10px;
-}	
+}
 }
 @media (max-width: 410px){
 	.gc_com_slider_time_wrapper{
@@ -4415,7 +4417,7 @@ audio {
 	.gc_event_timer_btn{
 		margin-top:50px;
 	}
-	
+
 }
 @media (max-width: 350px){
 	#clockdiv > div{
@@ -4441,3 +4443,8 @@ audio {
 	}
 }
 /*-- Responsive css End --*/
+/*  */
+.footer-social-networks {
+  display: flex;
+  justify-content: center;
+}
